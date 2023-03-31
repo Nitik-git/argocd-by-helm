@@ -1,8 +1,8 @@
 helm:
   parameters:
-  - name: myalias.image.name
+  - name: image.name
     value: us-east1-docker.pkg.dev/task-project-374915/argotestrepo/image_my_repo
     forcestring: true
-  - name: myalias.image.tag
-    value: c1.7
+  - name: image.tag
+    value: c1.8
     forcestring: true
